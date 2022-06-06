@@ -1,0 +1,31 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-smartparkingapp-dev-213212-authRole",
+      "UnauthRoleArn": "arn:aws:iam::320297557346:role/amplify-smartparkingapp-dev-213212-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::320297557346:role/amplify-smartparkingapp-dev-213212-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-smartparkingapp-dev-213212-deployment",
+      "UnauthRoleName": "amplify-smartparkingapp-dev-213212-unauthRole",
+      "StackName": "amplify-smartparkingapp-dev-213212",
+      "StackId": "arn:aws:cloudformation:us-east-2:320297557346:stack/amplify-smartparkingapp-dev-213212/36c93380-e21c-11ec-9a83-0676d99e4e30",
+      "AmplifyAppId": "d29mpamz5zwt1h",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-smartparkingapp-dev-213212-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "auth": {
+        "smartparkingappf6534a0b": {}
+      },
+      "function": {
+        "parkingActivity": {
+          "deploymentBucketName": "amplify-smartparkingapp-dev-213212-deployment",
+          "s3Key": "amplify-builds/parkingActivity-31627069682f4a516c51-build.zip"
+        },
+        "queryParking": {
+          "deploymentBucketName": "amplify-smartparkingapp-dev-213212-deployment",
+          "s3Key": "amplify-builds/queryParking-555a304f504f34573658-build.zip"
+        }
+      }
+    }
+  }
+}

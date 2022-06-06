@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "paths": {
+    "/getParkingActivity": {
+      "name": "/getParkingActivity",
+      "lambdaFunction": "parkingActivity",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ]
+      }
+    },
+    "/queryParking": {
+      "name": "/queryParking",
+      "lambdaFunction": "queryParking",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}
